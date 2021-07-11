@@ -25,6 +25,11 @@ public class GameStrategy {
 		
 		int row = getRow(cellId);
 		
+		/*
+		WRITE YOUR LOGIC HERE...............................
+
+	    */
+		
 		System.out.println(row+", "+col);
 		
 		if(numQueens == 0) {
@@ -60,13 +65,6 @@ public class GameStrategy {
 		}
 		
 		
-		
-		
-		
-		/*
-			WRITE YOUR LOGIC HERE...............................
-
-		*/
 		return isValid;
 	}
 }
